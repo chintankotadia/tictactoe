@@ -1,0 +1,39 @@
+body {
+	padding-top: 60px;
+	font-family: 'Autour One', cursive, Arial, sans-serif;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.game-wrapper {
+	text-align: center;
+}
+
+.game-wrapper .game-controls {
+	padding-bottom: 15px;
+	width: 280px;
+	margin: 0 auto;
+}
+
+.game-wrapper .game-controls label {
+	font-size: 16px;
+}
+
+.game-wrapper .game-container {
+	width: 300px;
+	display: inline-block;
+}
+
+.game-wrapper .game-container ul li {
+	float: left;
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+	font-size: 44px;
+	line-height: 54px;
+	list-style: none;
+	border: solid 1px #ccc;
+	text-align: center;
+}
